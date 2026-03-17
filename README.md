@@ -13,6 +13,19 @@ This project demonstrates object‑oriented design, computational geometry conce
 - Adjustable precision: the number of random points is \(10^{\text{precision}}\).
 - Clean, modern C++ code with `std::vector`, no manual memory management, and clear separation of concerns.
 
+## 🎯 Mathematical Foundation
+
+This project is based on probabilistic integration:
+
+Area ≈ (points_inside / total_points) × bounding_area
+
+## 📊 Concepts Demonstrated
+
+- Monte Carlo methods
+- Computational geometry
+- Probabilistic algorithms
+- Numerical approximation
+
 ## 🧮 How It Works
 
 1. The user enters the vertices of a polygon (in order, either clockwise or counter‑clockwise).
